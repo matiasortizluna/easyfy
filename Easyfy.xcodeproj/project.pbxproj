@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60344C292B3DFFAB00C3EBA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60344C282B3DFFAB00C3EBA9 /* AppDelegate.swift */; };
+		60344C2B2B3DFFAB00C3EBA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60344C2A2B3DFFAB00C3EBA9 /* SceneDelegate.swift */; };
+		60344C2D2B3DFFAB00C3EBA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60344C2C2B3DFFAB00C3EBA9 /* ViewController.swift */; };
+		60344C302B3DFFAB00C3EBA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60344C2E2B3DFFAB00C3EBA9 /* Main.storyboard */; };
+		60344C322B3DFFB000C3EBA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60344C312B3DFFB000C3EBA9 /* Assets.xcassets */; };
+		60344C352B3DFFB000C3EBA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60344C332B3DFFB000C3EBA9 /* LaunchScreen.storyboard */; };
+		60344C402B3DFFB100C3EBA9 /* EasyfyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60344C3F2B3DFFB100C3EBA9 /* EasyfyTests.swift */; };
+		60344C4A2B3DFFB100C3EBA9 /* EasyfyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60344C492B3DFFB100C3EBA9 /* EasyfyUITests.swift */; };
+		60344C4C2B3DFFB100C3EBA9 /* EasyfyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60344C4B2B3DFFB100C3EBA9 /* EasyfyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60344C3C2B3DFFB100C3EBA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60344C1D2B3DFFAB00C3EBA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60344C242B3DFFAB00C3EBA9;
+			remoteInfo = Easyfy;
+		};
+		60344C462B3DFFB100C3EBA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60344C1D2B3DFFAB00C3EBA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60344C242B3DFFAB00C3EBA9;
+			remoteInfo = Easyfy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60344C252B3DFFAB00C3EBA9 /* Easyfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Easyfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60344C282B3DFFAB00C3EBA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60344C2A2B3DFFAB00C3EBA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60344C2C2B3DFFAB00C3EBA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60344C2F2B3DFFAB00C3EBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60344C312B3DFFB000C3EBA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60344C342B3DFFB000C3EBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60344C362B3DFFB000C3EBA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60344C3B2B3DFFB100C3EBA9 /* EasyfyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyfyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60344C3F2B3DFFB100C3EBA9 /* EasyfyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyfyTests.swift; sourceTree = "<group>"; };
+		60344C452B3DFFB100C3EBA9 /* EasyfyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyfyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60344C492B3DFFB100C3EBA9 /* EasyfyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyfyUITests.swift; sourceTree = "<group>"; };
+		60344C4B2B3DFFB100C3EBA9 /* EasyfyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyfyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60344C222B3DFFAB00C3EBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60344C382B3DFFB100C3EBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60344C422B3DFFB100C3EBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60344C1C2B3DFFAB00C3EBA9 = {
+			isa = PBXGroup;
+			children = (
+				60344C272B3DFFAB00C3EBA9 /* Easyfy */,
+				60344C3E2B3DFFB100C3EBA9 /* EasyfyTests */,
+				60344C482B3DFFB100C3EBA9 /* EasyfyUITests */,
+				60344C262B3DFFAB00C3EBA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60344C262B3DFFAB00C3EBA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60344C252B3DFFAB00C3EBA9 /* Easyfy.app */,
+				60344C3B2B3DFFB100C3EBA9 /* EasyfyTests.xctest */,
+				60344C452B3DFFB100C3EBA9 /* EasyfyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60344C272B3DFFAB00C3EBA9 /* Easyfy */ = {
+			isa = PBXGroup;
+			children = (
+				60344C282B3DFFAB00C3EBA9 /* AppDelegate.swift */,
+				60344C2A2B3DFFAB00C3EBA9 /* SceneDelegate.swift */,
+				60344C2C2B3DFFAB00C3EBA9 /* ViewController.swift */,
+				60344C2E2B3DFFAB00C3EBA9 /* Main.storyboard */,
+				60344C312B3DFFB000C3EBA9 /* Assets.xcassets */,
+				60344C332B3DFFB000C3EBA9 /* LaunchScreen.storyboard */,
+				60344C362B3DFFB000C3EBA9 /* Info.plist */,
+			);
+			path = Easyfy;
+			sourceTree = "<group>";
+		};
+		60344C3E2B3DFFB100C3EBA9 /* EasyfyTests */ = {
+			isa = PBXGroup;
+			children = (
+				60344C3F2B3DFFB100C3EBA9 /* EasyfyTests.swift */,
+			);
+			path = EasyfyTests;
+			sourceTree = "<group>";
+		};
+		60344C482B3DFFB100C3EBA9 /* EasyfyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60344C492B3DFFB100C3EBA9 /* EasyfyUITests.swift */,
+				60344C4B2B3DFFB100C3EBA9 /* EasyfyUITestsLaunchTests.swift */,
+			);
+			path = EasyfyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60344C242B3DFFAB00C3EBA9 /* Easyfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60344C4F2B3DFFB100C3EBA9 /* Build configuration list for PBXNativeTarget "Easyfy" */;
+			buildPhases = (
+				60344C212B3DFFAB00C3EBA9 /* Sources */,
+				60344C222B3DFFAB00C3EBA9 /* Frameworks */,
+				60344C232B3DFFAB00C3EBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Easyfy;
+			productName = Easyfy;
+			productReference = 60344C252B3DFFAB00C3EBA9 /* Easyfy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60344C3A2B3DFFB100C3EBA9 /* EasyfyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60344C522B3DFFB100C3EBA9 /* Build configuration list for PBXNativeTarget "EasyfyTests" */;
+			buildPhases = (
+				60344C372B3DFFB100C3EBA9 /* Sources */,
+				60344C382B3DFFB100C3EBA9 /* Frameworks */,
+				60344C392B3DFFB100C3EBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60344C3D2B3DFFB100C3EBA9 /* PBXTargetDependency */,
+			);
+			name = EasyfyTests;
+			productName = EasyfyTests;
+			productReference = 60344C3B2B3DFFB100C3EBA9 /* EasyfyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60344C442B3DFFB100C3EBA9 /* EasyfyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60344C552B3DFFB100C3EBA9 /* Build configuration list for PBXNativeTarget "EasyfyUITests" */;
+			buildPhases = (
+				60344C412B3DFFB100C3EBA9 /* Sources */,
+				60344C422B3DFFB100C3EBA9 /* Frameworks */,
+				60344C432B3DFFB100C3EBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60344C472B3DFFB100C3EBA9 /* PBXTargetDependency */,
+			);
+			name = EasyfyUITests;
+			productName = EasyfyUITests;
+			productReference = 60344C452B3DFFB100C3EBA9 /* EasyfyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60344C1D2B3DFFAB00C3EBA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					60344C242B3DFFAB00C3EBA9 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					60344C3A2B3DFFB100C3EBA9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 60344C242B3DFFAB00C3EBA9;
+					};
+					60344C442B3DFFB100C3EBA9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 60344C242B3DFFAB00C3EBA9;
+					};
+				};
+			};
+			buildConfigurationList = 60344C202B3DFFAB00C3EBA9 /* Build configuration list for PBXProject "Easyfy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60344C1C2B3DFFAB00C3EBA9;
+			productRefGroup = 60344C262B3DFFAB00C3EBA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60344C242B3DFFAB00C3EBA9 /* Easyfy */,
+				60344C3A2B3DFFB100C3EBA9 /* EasyfyTests */,
+				60344C442B3DFFB100C3EBA9 /* EasyfyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60344C232B3DFFAB00C3EBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60344C352B3DFFB000C3EBA9 /* LaunchScreen.storyboard in Resources */,
+				60344C322B3DFFB000C3EBA9 /* Assets.xcassets in Resources */,
+				60344C302B3DFFAB00C3EBA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60344C392B3DFFB100C3EBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60344C432B3DFFB100C3EBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60344C212B3DFFAB00C3EBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60344C2D2B3DFFAB00C3EBA9 /* ViewController.swift in Sources */,
+				60344C292B3DFFAB00C3EBA9 /* AppDelegate.swift in Sources */,
+				60344C2B2B3DFFAB00C3EBA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60344C372B3DFFB100C3EBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60344C402B3DFFB100C3EBA9 /* EasyfyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60344C412B3DFFB100C3EBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60344C4A2B3DFFB100C3EBA9 /* EasyfyUITests.swift in Sources */,
+				60344C4C2B3DFFB100C3EBA9 /* EasyfyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60344C3D2B3DFFB100C3EBA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60344C242B3DFFAB00C3EBA9 /* Easyfy */;
+			targetProxy = 60344C3C2B3DFFB100C3EBA9 /* PBXContainerItemProxy */;
+		};
+		60344C472B3DFFB100C3EBA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60344C242B3DFFAB00C3EBA9 /* Easyfy */;
+			targetProxy = 60344C462B3DFFB100C3EBA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60344C2E2B3DFFAB00C3EBA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60344C2F2B3DFFAB00C3EBA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60344C332B3DFFB000C3EBA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60344C342B3DFFB000C3EBA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60344C4D2B3DFFB100C3EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60344C4E2B3DFFB100C3EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60344C502B3DFFB100C3EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P65TXXV85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Easyfy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Easyfy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasortizluna.Easyfy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60344C512B3DFFB100C3EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P65TXXV85;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Easyfy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Easyfy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasortizluna.Easyfy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60344C532B3DFFB100C3EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P65TXXV85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasortizluna.EasyfyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easyfy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Easyfy";
+			};
+			name = Debug;
+		};
+		60344C542B3DFFB100C3EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P65TXXV85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasortizluna.EasyfyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easyfy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Easyfy";
+			};
+			name = Release;
+		};
+		60344C562B3DFFB100C3EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P65TXXV85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasortizluna.EasyfyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Easyfy;
+			};
+			name = Debug;
+		};
+		60344C572B3DFFB100C3EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4P65TXXV85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasortizluna.EasyfyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Easyfy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60344C202B3DFFAB00C3EBA9 /* Build configuration list for PBXProject "Easyfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60344C4D2B3DFFB100C3EBA9 /* Debug */,
+				60344C4E2B3DFFB100C3EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60344C4F2B3DFFB100C3EBA9 /* Build configuration list for PBXNativeTarget "Easyfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60344C502B3DFFB100C3EBA9 /* Debug */,
+				60344C512B3DFFB100C3EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60344C522B3DFFB100C3EBA9 /* Build configuration list for PBXNativeTarget "EasyfyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60344C532B3DFFB100C3EBA9 /* Debug */,
+				60344C542B3DFFB100C3EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60344C552B3DFFB100C3EBA9 /* Build configuration list for PBXNativeTarget "EasyfyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60344C562B3DFFB100C3EBA9 /* Debug */,
+				60344C572B3DFFB100C3EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60344C1D2B3DFFAB00C3EBA9 /* Project object */;
+}
